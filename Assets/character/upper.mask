@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: upper
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature.001
+    m_Weight: 1
+  - m_Path: Armature.001/base
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.L/arm1.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.L/arm1.L/elbow.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.L/arm1.L/elbow.L/arm2.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.L/arm1.L/elbow.L/arm2.L/hand.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.R/arm1.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.R/arm1.R/elbow.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.R/arm1.R/elbow.R/arm2.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/Bone.010.R/arm1.R/elbow.R/arm2.R/hand.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/neck
+    m_Weight: 1
+  - m_Path: Armature.001/base/core ik/spine3/neck/head
+    m_Weight: 1
+  - m_Path: Armature.001/base/elbow ik.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/elbow ik.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/feet ik.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/feet ik.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/hand ik.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/hand ik.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/headTarget
+    m_Weight: 1
+  - m_Path: Armature.001/base/knee ik.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/knee ik.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.L/knee.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.L/knee.L/leg2.L
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.R/knee.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/leg1.R/knee.R/leg2.R
+    m_Weight: 1
+  - m_Path: Armature.001/base/spine0/spine1/spine2
+    m_Weight: 1
+  - m_Path: Cube.006
+    m_Weight: 1
+  - m_Path: Cube.007
+    m_Weight: 1
