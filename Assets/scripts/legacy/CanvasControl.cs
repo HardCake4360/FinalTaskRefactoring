@@ -31,7 +31,7 @@ public class CanvasControl : MonoBehaviour
     public Slider bossHpBar;
     public GameObject hpShow;
 
-    private Player m_player;
+    private Player_R m_player;
 
     public static CanvasControl Instance
     {
@@ -47,8 +47,8 @@ public class CanvasControl : MonoBehaviour
 
     public void InitScene()
     {
-        player = GameObject.Find("Player");
-        m_player = player.GetComponent<Player>();
+        player = GameObject.FindWithTag("Player");
+        m_player = player.GetComponentInChildren<Player_R>();
         bossObj = GameObject.Find("Boss");
         boss = bossObj.GetComponent<Enemy>();
         Debug.Log("scene init");
@@ -70,8 +70,8 @@ public class CanvasControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player");
-        m_player = player.GetComponent<Player>();
+        player = GameObject.FindWithTag("Player");
+        m_player = player.GetComponent<Player_R>();
         t1 = m1.GetComponent<Toggle>();
         t2 = m2.GetComponent<Toggle>();
     }

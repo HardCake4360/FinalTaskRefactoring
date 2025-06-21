@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    public Player playerScript;
+    public Player_R playerScript;
 
     public Vector3 respawn;
 
@@ -22,16 +22,15 @@ public class GameManager : MonoBehaviour
     new public AudioClip[] audio;
     public Text timer;
 
-    public bool weapon;
-    public bool shoes;
-    public bool wings;
-
     public bool mission1;
     public bool mission2;
 
     public bool interrupt;
     public bool clear;
     public bool fail;
+
+    [Header("d")]
+    [SerializeField] private GameObject bloodPrefab;
 
     public static GameManager Instance
     {
@@ -49,11 +48,8 @@ public class GameManager : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         player = GameObject.Find("Player");
-        playerScript = player.GetComponent<Player>();
+        playerScript = player.GetComponent<Player_R>();
         player.transform.position = respawn;
-        playerScript.armed = weapon;
-        playerScript.shoed = shoes;
-        playerScript.winged = wings;
         clear = false;
         fail = false;
         interrupt = false;

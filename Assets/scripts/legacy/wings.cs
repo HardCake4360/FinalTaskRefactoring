@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class wings : MonoBehaviour
 {
-    GameObject playerObj;
-    Player player;
+    Player_R player;
     // Start is called before the first frame update
-    void Start()
-    {
-        playerObj = GameObject.Find("Player");
-        player = playerObj.GetComponent<Player>();
-    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
+        {
+            player = other.gameObject.GetComponent<Player_R>();
             player.winged = true;
-        GameManager.Instance.wings = true;
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
+            
     }
 }

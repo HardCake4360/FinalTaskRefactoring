@@ -11,8 +11,8 @@ public class playerAnimEvent : MonoBehaviour
     {
         if (attackFlag && other.tag == "Enemy")
         {
-            Enemy enemy = other.GetComponent<Enemy>();
-            enemy.hp -= damage;
+            Enemy_B enemy = other.GetComponent<Enemy_B>();
+            enemy.Hp -= damage;
             Debug.Log("hit");
             attackFlag = false;
         }
